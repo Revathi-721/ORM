@@ -24,10 +24,31 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+'''
+admin.py
+from django.contrib import admin
+from .models import Student,StudentAdmin
+admin.site.register(Student,StudentAdmin)
+
+models.py
+from django.db import models
+from django.contrib import admin
+class Student(models.Model):
+    Sno=models.IntegerField(primary_key=True)
+    Name=models.CharField(max_length=10)
+    Phone_No=models.IntegerField()
+    Address=models.TextField()
+    Depart=models.CharField(max_length=10)
+    Ref_no=models.IntegerField()
+    
+    
+class StudentAdmin(admin.ModelAdmin):
+    list_display=["Sno","Name","Phone_No","Address","Depart","Ref_no"]
+'''
 
 
-
-## OUTPUT
+## OUTPUT!:
+[alt text](<Screenshot 2026-10-26 190743.png>)
 
 Include the screenshot of your admin page.
 
