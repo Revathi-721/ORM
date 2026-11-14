@@ -49,7 +49,8 @@ class StudentAdmin(admin.ModelAdmin):
 
 
 ## OUTPUT!:
-[alt text](<Screenshot 2026-10-26 190743.png>)
+![Uploading Screenshot 2026-11-14 140247.png…]()
+
 
 Include the screenshot of your admin page.
 
