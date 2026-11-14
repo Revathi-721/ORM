@@ -25,7 +25,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
+~~~
 admin.py
 from django.contrib import admin
 from .models import Student,StudentAdmin
@@ -45,7 +45,7 @@ class Student(models.Model):
     
 class StudentAdmin(admin.ModelAdmin):
     list_display=["Sno","Name","Phone_No","Address","Depart","Ref_no"]
-'''
+~~~
 
 
 ## OUTPUT!:
