@@ -49,10 +49,8 @@ class StudentAdmin(admin.ModelAdmin):
 
 
 ## OUTPUT!:
-![Uploading Screenshot 2026-11-14 140247.png…]()
+<img width="1416" height="472" alt="Screenshot 2026-11-14 140247" src="https://github.com/user-attachments/assets/db74d1bc-069c-4a79-9ab6-66061cb09c83" />
 
-
-Include the screenshot of your admin page.
 
 
 ## RESULT
